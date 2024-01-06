@@ -507,6 +507,72 @@ footer .copyright {
   /* Desktop styles here */
 }
 
+/* General styles */
+
+.content-wrapper {
+  max-width: 960px;
+}
+
+/* Header */
+
+header {
+  padding: 15px 0;
+}
+
+/* Hero Area*/
+
+.hero-area h1 {
+  width: 70%;
+}
+
+/* Aside */
+
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
+}
+
+/* Features */
+
+.features article {
+  flex-basis: 33%;
+}
+
+.features h2 {
+  width: 90%;
+}
+
+/* Reviews */
+
+.reviews article {
+  padding-top: 50px;
+}
+
+.reviews article div {
+  width: 42%;
+}
+
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+ 
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 95%;
+    }
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+.faq h2 {
+  width: 100%;
+}
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:

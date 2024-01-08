@@ -98,10 +98,70 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .content-wrapper {
-  outline: 3px dotted palevioletred;
   width: 90%;
   margin: 50px 0;
 }
+
+/* General Styles */
+ 
+html {
+	font-size: 1rem;
+}
+ 
+body {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 1em;
+ text-align: left;
+}
+ 
+ul, 
+ol {
+ list-style: none;
+}
+ 
+a {
+	color: #e2e3ed;
+  text-decoration: none;
+}
+
+/* h1 {
+ font-family: 'Poppins', Arial, Helvetica, sans-serif;
+ font-size: 2.25em;
+ line-height: 2.6875em; 
+ font-weight: 500;
+} */
+ 
+h2 {
+ font-family: 'Popins', sans-serif;
+ font-size: 1.875em;
+ /* font-weight: 500; */
+}
+ 
+h3, 
+h4 {
+ font-family: 'Popins', sans-serif;
+ font-size: 1.125em;
+ /* font-weight: 500; */
+ margin: 20px 0;
+}
+ 
+p {
+	font-size: 0.875em;
+  line-height: 1.125em;
+}
+ 
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address {
+ font-style: normal;
+}
+ 
 
 /*------------ Base Header - Footer Styles -----------*/
 
@@ -368,6 +428,37 @@ faq .content {
   /* Tablet styles here */
 }
 
+/* h1 {
+  font-size: 3em;
+  line-height: 3em;
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 3em;
+ }
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.875em;
+}
+
+footer p {
+  line-height: 1.125em;
+}
+
+footer h4,
+.contact h4 {
+  font-size: 1.5em;
+}
+
+.faq h4,
+.faq p {
+  font-size: 0.875em;
+  line-height: 0.9844em;
+} */
+
+
 /* General styles */
 
 .content-wrapper {
@@ -507,6 +598,34 @@ footer .copyright {
   /* Desktop styles here */
 }
 
+/* h1 {
+  font-size: 3.75em;
+}
+
+h2 {
+  font-size: 2.25em;
+ }
+
+.faq h2,
+.mission h2 {
+  font-size: 3em;
+}
+
+h3,h4 {
+  font-size: 1.875em;
+}
+
+.faq h4,
+.faq p{
+  font-size: 1.125em;
+  line-height: 1.125em;
+}
+
+p {
+   font-size: 1.125em;
+   line-height: 1.5em;
+ } */
+
 /* General styles */
 
 .content-wrapper {
@@ -548,9 +667,9 @@ aside .content-wrapper .form {
 
 /* Reviews */
 
-.reviews article {
+/* .reviews article {
   padding-top: 50px;
-}
+}  */
 
 .reviews article div {
   width: 42%;

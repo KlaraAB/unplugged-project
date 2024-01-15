@@ -235,13 +235,20 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #527158;
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -353,6 +360,7 @@ input[type=button] {
   width: 55%;
   margin: 20px 0;
 }
+
 
 /* ==========================================================================
    About Page
@@ -651,6 +659,11 @@ footer p {
   line-height: 1.285;
 }
 
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
+}
+
 footer .copyright {
   width: 100%;
 }
@@ -786,6 +799,11 @@ aside .content-wrapper .form {
 
 footer h4 {
   font-size: 1.875em;
+}
+
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
 }
 
 

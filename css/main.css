@@ -110,6 +110,7 @@ body {
  font-size: 1em;
  text-align: left;
  color: #e2e3ed;
+ background-color: #202322;
 }
  
 ul, 
@@ -128,6 +129,7 @@ h2 {
  font-family: 'Popins', sans-serif;
  font-size: 1.875em;
  font-weight: 500; 
+ margin: 0;
 }
  
 h3, 
@@ -255,6 +257,11 @@ footer .copyright {
   margin: 20px 0;
 }
 
+footer .content-wrapper {
+  margin: 0;
+  padding-top: 50px;
+}
+
 /*------------ Mobile Styles - Homepage -----------*/
 
 /* Hero Area */
@@ -329,7 +336,6 @@ input[type=button] {
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -600,6 +606,10 @@ aside .content-wrapper .form {
   margin-bottom: 20px;
 }
 
+.features .features-items {
+  align-items: flex-start;
+}
+
 .features article {
   display: flex;
   align-items: center;
@@ -609,7 +619,10 @@ aside .content-wrapper .form {
 
 .features .features-item-description {
   width: 62%;
+}
 
+.features i {
+  margin-bottom: 30px;
 }
 
 /* Reviews */
@@ -643,7 +656,6 @@ footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
 }
 
 footer .contact {
